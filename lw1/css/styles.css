@@ -1,0 +1,71 @@
+.page {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  height: 40px;
+  align-items: center;
+}
+
+.menu-wrapprer {
+  display: flex;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 41px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font: 400 12px "Oxygen", sans-serif;
+  color: rgba(46, 46, 46, 1);
+  text-transform: uppercase;
+}
+
+.main-title {
+  text-align: center;
+  font: 400 51px "Lora", serif;
+  margin-top: 89px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+  font: 400 17px "Oxygen", sans-serif;
+  color: rgba(46, 46, 46, 0.63);
+  margin-bottom: 113px;
+}
+
+.text {
+  max-width: 960px;
+  margin: auto;
+  font: 24px "Oxygen", sans-serif;
+  margin-top: 140px;
+  margin-bottom: 135px;
+}
+
+.footer-background {
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-color: rgba(35, 47, 56, 0.6);
+  background-blend-mode: overlay;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  height: 89px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
