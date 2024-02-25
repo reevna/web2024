@@ -1,0 +1,187 @@
+.page {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.main-header{
+  background-image: url("../img/rock.jpg");
+height: 500px;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 940px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding-top: 17px;
+}
+
+.menu-wrapprer {
+  display: flex;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-item {
+  margin-left: 41px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font: 400 12px "Oxygen", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+.header__title {
+  text-align: center;
+  font: 400 51px "Lora", serif;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 89px;
+  margin-bottom: 20px;
+}
+
+.header__subtitle {
+  text-align: center;
+  font: 400 17px "Oxygen", sans-serif;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.63);
+  margin-bottom: 31px;
+}
+
+.header__button{
+width: 167px;
+height: 44px;
+background-color: rgba(221, 120, 63, 1);
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+}
+
+.button__text{
+  text-align: center;
+  font: 400 13px "Oxygen", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.heigh{
+  height: 65px;
+}
+.categories{
+  max-width: 940px;
+  margin: auto;
+}
+
+.category_list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+}
+.category__item{
+
+}
+
+.category__link{
+  text-decoration: none;
+  color: rgba(118, 128, 136, 1);
+}
+.blog{
+  max-width: 940px;
+  margin: auto;
+}
+.block-title{
+  font: 400 20px "Oxygen", sans-serif;
+  color: rgba(46, 46, 46, 1);
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 33px;
+}
+
+.featured-post__block{
+  display: flex;
+    justify-content: space-around;
+}
+
+.featured-post__item{
+  width: 460px;
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.featured-post__text{
+  margin: 0 20px;
+  width: 100%;
+}
+
+.first-item{
+  background-image: url("../img/sky.png");
+}
+
+.second-item{
+  background-image: url("../img/lantern.png");
+}
+
+.item-title{
+  font: 400 27px "Lora", serif;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 6px;
+}
+
+.item-subtitle{
+  font: 400 14px "Oxygen", sans-serif;
+color: rgba(255, 255, 255, 0.7);
+line-height: 25px;
+margin: 0 0 12px;
+}
+.author-info{
+  display: flex;
+  align-items: center;
+}
+
+
+.author-block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-photo{
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.author-name{
+  font: 400 12px "Oxygen", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.date{
+  display: block;
+  font: 400 12px "Oxygen", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-background {
+  background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+  background-color: rgba(35, 47, 56, 0.6);
+  background-blend-mode: overlay;
+  border-radius: 3px;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  height: 89px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
